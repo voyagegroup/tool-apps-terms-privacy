@@ -1,5 +1,6 @@
 pre {
     white-space: pre-wrap;
+    font-family: monospace;
 }
 
 h1 {
@@ -8,4 +9,5 @@ h1 {
 
 footer {
     text-align: right;
+    font-family: monospace;
 }
