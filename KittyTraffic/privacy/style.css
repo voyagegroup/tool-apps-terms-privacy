@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #3ac535;
+	font-size: 12px;
+	line-height:1.4em;
+	color: #fff;
+	
+	background-repeat:no-repeat;
+	background-position:0 -32px;
+
+}
+
+h1{
+	display:block;
+	width:194px;
+	height:22px;
+	
+	margin:30px auto 5px; 
+}
+
+article{
+	display: block;
+	padding:18px;
+}
+
+
+span.text_yellow{
+	color:#ffff00;
+}
+
+a, a.active{
+	display:inline;
+	color: #ffff00;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+body {
+	background-size:320px 222px;
+}
+}
+
+
