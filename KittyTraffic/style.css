@@ -17,7 +17,7 @@ body {
 article{
 	display: block;
 	width:100%;
-	padding:60px 18px 18px 18px;
+	padding:84px 18px 18px 18px;
 }
 
 section{
@@ -35,10 +35,10 @@ section.step_2{
 	background-image : url("./images/howto_step2_132x121.png");
 }
 section.step_3{
-	background-image : url("./images/howto_step1_132x121.png");
+	background-image : url("./images/howto_step3_132x121.png");
 }
 section.step_4{
-	background-image : url("./images/howto_step2_132x121.png");
+	background-image : url("./images/howto_step4_132x121.png");
 }
 
 span.text_yellow{
