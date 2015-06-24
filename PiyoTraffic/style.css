@@ -31,7 +31,7 @@ h1{
 article{
 	display: block;
 	width:100%;
-	padding:18px;
+	padding:0 18px 18px 18px;
 }
 
 section{
@@ -58,7 +58,33 @@ section.step_4{
 span.text_yellow{
 	color:#ffff00;
 }
-
+#searchformBox{
+	width:640px;
+	margin:24px 0 0 12px;
+}
+#searchform{  
+    position: relative;  
+}  
+#keywords{  
+    width: 260px;  
+    height: 16px;  
+    background-color: #ffffff;  
+    border: 2px solid #765c06;  
+    padding: 14px 14px 14px 14px;
+    color:#662701;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+}  
+#searchBtn{  
+    position: absolute;  
+    top: 3px;  
+    left: 244px;
+    background: url(images/search_btn_46x42@2x.png) no-repeat;
+    background-size: 46px 42px;
+    width:46px;
+    height:42px;
+    border: none;
+}  
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 body {
@@ -84,6 +110,26 @@ section.step_3{
 section.step_4{
 	background-image : url("./images/howto_step4_132x106@2x.png");
 	background-size:132px 106px;
+}
+#keywords{  
+    width: 259px;  
+    height: 13px;  
+    background-color: #ffffff;  
+    border: 2px solid #765c06;  
+    padding: 14px 14px 14px 14px;
+    color:#662701;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+}  
+#searchBtn{  
+    position: absolute;  
+    top: 2px;  
+    left: 244px;
+    background: url(images/search_btn_46x42.png) no-repeat;
+    background-size: 46px 42px;
+    width:46px;
+    height:42px;
+    border: none;
 }
 }
 
