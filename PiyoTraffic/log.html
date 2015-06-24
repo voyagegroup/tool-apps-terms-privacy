@@ -11,11 +11,8 @@
 
     function getParameterByName(name) {
         name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        console.log(name);
         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
             results = regex.exec(location.search);
-        console.log(regex);
-        console.log(decodeURIComponent(results[1].replace(/\+/g, "  ")));
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
 </script>
