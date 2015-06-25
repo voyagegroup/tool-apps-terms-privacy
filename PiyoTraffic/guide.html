@@ -18,7 +18,13 @@
             }
 
             $("#searchform").bind("submit", function() {
-                retun true;
+                if ($("#keywords").val() != "") {
+                    return true;
+                } else {
+                    $("#keywords").attr("placeholder", "キーワードを入力してください。");
+                    $("#keywords").attr("class", "red");
+                    return false;
+                }
             });
     });
 </script>
