@@ -4,20 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="format-detection" content="telephone=no" />
-<title>使い方ガイド</title>
+<title>WEB検索</title>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script langa="JavaScript">
+<!--
+var cnt = 0;
+ var placeholder_text = "映画やドラマ、音楽などを検索♪";
+function placeholder_text(){
+if(cnt == 0){
+var placeholder_text = "通信制限 節約";
+}
+cnt = 1;
+}
+//-->
+</script>
 <header>
-  <h1>使い方ガイド</h1>
+  <h1>WEB検索</h1>
 </header>
 <div id="searchformBox">
     <form action="./log.html" id="searchform" >
-        <input type="text" name="query" id="keywords">
+        <SCRIPT LANGUAGE="JavaScript">
+<!--
+        document.write('<input type="text" name="query" id="keywords" placeholder="' + placeholder_text + '">')
+//-->
+</SCRIPT>
         <input type="image" src="./images/search_btn_46x42@2x.png" alt="" id="searchBtn">
     </form>
 </div>
+  <h2>使い方ガイド</h2>
 <article>
   <section class="step_1">
     <p>アプリを起動してデータ量を確認するピヨ。<span class="text_yellow">毎日起動すると制限にひっかかりにくいピヨ♪</span></p>
