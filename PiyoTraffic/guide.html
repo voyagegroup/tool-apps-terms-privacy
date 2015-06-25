@@ -16,6 +16,10 @@
                 $("#keywords").attr("placeholder", "通信制限 節約")
                 $.cookie(cookie_id, cookie_id);
             }
+
+            $("#searchform").bind("submit", function() {
+                retun true;
+            });
     });
 </script>
 </head>
@@ -24,7 +28,7 @@
   <h1>WEB検索</h1>
 </header>
 <div id="searchformBox">
-    <form action="./log.html" id="searchform" onsubmit= "return execute()">
+    <form action="./log.html" id="searchform">
     <input type="text" name="query" id="keywords" placeholder="映画やドラマ、音楽などを検索">
         <input type="image" src="./images/search_btn_46x42@2x.png" alt="" id="searchBtn">
     </form>
