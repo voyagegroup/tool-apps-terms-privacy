@@ -4,29 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="format-detection" content="telephone=no" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.cookie.js"></script>
 <title>WEB検索</title>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
-<script type="text/javascript">
-    $(function(){
-            var cookie_id = "io.github.voyagegroup";
-            if(!$.cookie(cookie_id)) {
-                $("#keywords").attr("placeholder", "通信制限 節約")
-                $.cookie(cookie_id, cookie_id);
-            }
-
-            $("#searchform").bind("submit", function() {
-                if ($("#keywords").val() != "") {
-                    return true;
-                } else {
-                    $("#keywords").attr("placeholder", "キーワードを入力してください。");
-                    $("#keywords").attr("class", "red");
-                    return false;
-                }
-            });
-    });
+<script defer type="text/javascript" src="./guide.js">
 </script>
 </head>
 <body>
@@ -35,7 +16,7 @@
 </header>
 <div id="searchformBox">
     <form action="./log.html" id="searchform">
-    <input type="text" name="query" id="keywords" placeholder="映画やドラマ、音楽などを検索">
+    <input type="text" name="query" id="keywords">
         <input type="image" src="./images/search_btn_46x42@2x.png" alt="" id="searchBtn">
     </form>
 </div>
