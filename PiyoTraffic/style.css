@@ -7,10 +7,10 @@ body {
 	font-weight:800;
 	line-height:1.4em;
 	color: #fff;
-	background-image : url("./images/bg_howto_320x313@2xpng");
+	background-image : url("./images/bg_howto_320x340.png");
 	background-repeat:no-repeat;
 	background-position:0 -52px;
-	background-size: 320px 313px;
+	background-size: 320px 340px;
 }
 h1{
 	text-indent:100%;
@@ -20,7 +20,7 @@ h1{
 	display:block;
 	width:128px;
 	height:29px;
-	background-image : url("./images/checker_howto_title_web_128x29@2x");
+	background-image : url("./images/checker_howto_title_web_128x29.png");
 	background-repeat:no-repeat;
 	
 	margin:27px auto -16px; 
@@ -34,7 +34,7 @@ h2{
 	height:31px;
 	background-image : url("./images/title_howto_160x31.png");
 	background-repeat:no-repeat;
-	margin:80px auto -16px; 
+	margin:120px auto -16px; 
 }
 input.red::-webkit-input-placeholder {
     color:    #f00;
@@ -90,7 +90,7 @@ span.text_yellow{
     position: absolute;  
     top: 3px;  
     left: 244px;
-    background: url(images/search_btn_46x42@2x.png) no-repeat;
+    background: url(images/search_btn_46x42.png) no-repeat;
     background-size: 46px 42px;
     width:46px;
     height:42px;
@@ -99,8 +99,8 @@ span.text_yellow{
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 body {
-	background-image : url("./images/bg_howto_320x313@2x.png");
-	background-size:320px 313px;
+	background-image : url("./images/bg_howto_320x340@2x.png");
+	background-size:320px 340px;
 }
 h1{
 	background-image : url("./images/checker_howto_title_web_128x29@2x.png");
@@ -131,12 +131,26 @@ section.step_4{
     color:#662701;
     font-size: 14px;
     -webkit-border-radius: 10px;
-}  
+}
+#keywords_notext{  
+    width: 259px;  
+    height: 13px;  
+    background-color: #ffffff;  
+    border: 2px solid #cc0000;  
+    padding: 14px 14px 14px 14px;
+    color:#662701;
+    font-size: 14px;
+    -webkit-border-radius: 10px;
+}
+p.alart_notext{
+	color:#cc0000;
+	margin-left:14px;
+}
 #search_btn{  
     position: absolute;  
     top: 2px;  
     left: 244px;
-    background: url(images/search_btn_46x42.png) no-repeat;
+    background: url(images/search_btn_46x42@2x.png) no-repeat;
     background-size: 46px 42px;
     width:46px;
     height:42px;
