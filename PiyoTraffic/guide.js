@@ -9,3 +9,16 @@ function set_placeholeder_if_needed() {
         document.cookie = key + "=" + key;
     }
 }
+
+function exists_serach_keyword() {
+    if (document.getElementById("keywords").value == "") {
+        show_required_comment();
+        return false;
+    }
+
+    return true;
+}
+
+function show_required_comment() {
+    //TODO: デザインができたら実装
+}
