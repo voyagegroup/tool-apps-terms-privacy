@@ -69,7 +69,7 @@ section.step_4{
 span.text_yellow{
 	color:#ffff00;
 }
-#searchformBox{
+#search_form_box{
 	width:640px;
 	margin:24px 0 0 12px;
 }
@@ -86,7 +86,7 @@ span.text_yellow{
     font-size: 14px;
     -webkit-border-radius: 10px;
 }  
-#searchBtn{  
+#search_btn{  
     position: absolute;  
     top: 3px;  
     left: 244px;
@@ -132,7 +132,7 @@ section.step_4{
     font-size: 14px;
     -webkit-border-radius: 10px;
 }  
-#searchBtn{  
+#search_btn{  
     position: absolute;  
     top: 2px;  
     left: 244px;
