@@ -83,7 +83,7 @@ span.text_yellow{
     border: 2px solid #765c06;  
     padding: 14px 14px 14px 14px;
     color:#662701;
-    -webkit-border-radius: 10px;
+    border-radius: 10px;
 } 
 .empty_keywords{
     border: 2px solid #ff0000 !important;
@@ -135,7 +135,7 @@ section.step_4{
     padding: 14px 14px 14px 14px;
     color:#662701;
     font-size: 14px;
-    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 p.alart_notext{
 	color:#cc0000;
