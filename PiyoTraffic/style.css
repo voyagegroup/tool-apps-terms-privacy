@@ -3,24 +3,23 @@
 
 body {
 	background-color: #3ac535;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight:800;
 	line-height:1.4em;
 	color: #fff;
-	background-image : url("./images/bg_howto_320x313@2xpng");
+	background-image : url("./images/bg_howto_320x340.png");
 	background-repeat:no-repeat;
 	background-position:0 -52px;
-	background-size: 320px 313px;
+	background-size: 320px 340px;
 }
 h1{
 	text-indent:100%;
 	white-space:nowrap;
-	overflow:hidden;
-	
+	overflow:hidden;	
 	display:block;
 	width:128px;
 	height:29px;
-	background-image : url("./images/checker_howto_title_web_128x29@2x");
+	background-image : url("./images/checker_howto_title_web_128x29.png");
 	background-repeat:no-repeat;
 	
 	margin:27px auto -16px; 
@@ -34,7 +33,7 @@ h2{
 	height:31px;
 	background-image : url("./images/title_howto_160x31.png");
 	background-repeat:no-repeat;
-	margin:80px auto -16px; 
+	margin:134px auto -16px; 
 }
 input.red::-webkit-input-placeholder {
     color:    #f00;
@@ -71,6 +70,7 @@ span.text_yellow{
 }
 #search_form_box{
 	width:640px;
+	height:50px;
 	margin:24px 0 0 12px;
 }
 #searchform{  
@@ -83,24 +83,29 @@ span.text_yellow{
     border: 2px solid #765c06;  
     padding: 14px 14px 14px 14px;
     color:#662701;
-    font-size: 14px;
     -webkit-border-radius: 10px;
-}  
+} 
+.empty_keywords{
+    border: 2px solid #ff0000;  	
+} 
 #search_btn{  
     position: absolute;  
     top: 3px;  
     left: 244px;
-    background: url(images/search_btn_46x42@2x.png) no-repeat;
+    background: url(images/search_btn_46x42.png) no-repeat;
     background-size: 46px 42px;
     width:46px;
     height:42px;
     border: none;
-}  
+} 
+.err_txt{
+	color:#ff0000;
+} 
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 body {
-	background-image : url("./images/bg_howto_320x313@2x.png");
-	background-size:320px 313px;
+	background-image : url("./images/bg_howto_320x340@2x.png");
+	background-size:320px 340px;
 }
 h1{
 	background-image : url("./images/checker_howto_title_web_128x29@2x.png");
@@ -131,12 +136,16 @@ section.step_4{
     color:#662701;
     font-size: 14px;
     -webkit-border-radius: 10px;
-}  
+}
+p.alart_notext{
+	color:#cc0000;
+	margin-left:14px;
+}
 #search_btn{  
     position: absolute;  
     top: 2px;  
     left: 244px;
-    background: url(images/search_btn_46x42.png) no-repeat;
+    background: url(images/search_btn_46x42@2x.png) no-repeat;
     background-size: 46px 42px;
     width:46px;
     height:42px;
