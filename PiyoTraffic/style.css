@@ -35,9 +35,6 @@ h2{
 	background-repeat:no-repeat;
 	margin:134px auto -16px; 
 }
-input.red::-webkit-input-placeholder {
-    color:    #f00;
-}
 article{
 	display: block;
 	width:100%;
