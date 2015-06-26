@@ -86,7 +86,7 @@ span.text_yellow{
     -webkit-border-radius: 10px;
 } 
 .empty_keywords{
-    border: 2px solid #ff0000;  	
+    border: 2px solid #ff0000 !important;
 } 
 #search_btn{  
     position: absolute;  

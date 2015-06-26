@@ -12,13 +12,24 @@ function set_placeholeder_if_needed() {
 
 function exists_search_keyword() {
     if (document.getElementById("keywords").value == "") {
-        show_required_comment();
+        show_required_search_keyword_feedback();
         return false;
     }
 
     return true;
 }
 
-function show_required_comment() {
-    //TODO: デザインができたら実装
+function show_required_search_keyword_feedback() {
+    document.getElementById("keywords").classList.add("empty_keywords");
+
+    var search_form_element = document.getElementById("searchform");
+    var contains_errortext_nodes_number = 6;
+    if (search_form_element.childNodes.length >= contains_errortext_nodes_number) {
+        return;
+    }
+
+    var text = document.createElement("p");
+    text.classList.add("err_txt");
+    text.appendChild(document.createTextNode("キーワードを入力してください"));
+    search_form_element.appendChild(text);
 }
