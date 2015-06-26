@@ -3,7 +3,7 @@
 
 body {
 	background-color: #3ac535;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight:800;
 	line-height:1.4em;
 	color: #fff;
@@ -15,8 +15,7 @@ body {
 h1{
 	text-indent:100%;
 	white-space:nowrap;
-	overflow:hidden;
-	
+	overflow:hidden;	
 	display:block;
 	width:128px;
 	height:29px;
@@ -34,7 +33,7 @@ h2{
 	height:31px;
 	background-image : url("./images/title_howto_160x31.png");
 	background-repeat:no-repeat;
-	margin:120px auto -16px; 
+	margin:134px auto -16px; 
 }
 input.red::-webkit-input-placeholder {
     color:    #f00;
@@ -71,6 +70,7 @@ span.text_yellow{
 }
 #search_form_box{
 	width:640px;
+	height:50px;
 	margin:24px 0 0 12px;
 }
 #searchform{  
@@ -83,9 +83,11 @@ span.text_yellow{
     border: 2px solid #765c06;  
     padding: 14px 14px 14px 14px;
     color:#662701;
-    font-size: 14px;
     -webkit-border-radius: 10px;
-}  
+} 
+.empty_keywords{
+    border: 2px solid #ff0000;  	
+} 
 #search_btn{  
     position: absolute;  
     top: 3px;  
@@ -95,7 +97,10 @@ span.text_yellow{
     width:46px;
     height:42px;
     border: none;
-}  
+} 
+.err_txt{
+	color:#ff0000;
+} 
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 body {
