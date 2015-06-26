@@ -137,16 +137,6 @@ section.step_4{
     font-size: 14px;
     -webkit-border-radius: 10px;
 }
-#keywords_notext{  
-    width: 259px;  
-    height: 13px;  
-    background-color: #ffffff;  
-    border: 2px solid #cc0000;  
-    padding: 14px 14px 14px 14px;
-    color:#662701;
-    font-size: 14px;
-    -webkit-border-radius: 10px;
-}
 p.alart_notext{
 	color:#cc0000;
 	margin-left:14px;
