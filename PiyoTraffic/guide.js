@@ -22,14 +22,14 @@ function exists_search_keyword() {
 function show_required_search_keyword_feedback() {
     document.getElementById("keywords").classList.add("empty_keywords");
 
-    var search_form_element = document.getElementById("searchform");
-    var contains_errortext_nodes_number = 6;
-    if (search_form_element.childNodes.length >= contains_errortext_nodes_number) {
+    var errortext_id = "err_txt";
+    if (document.getElementById(errortext_id)) {
         return;
     }
 
     var text = document.createElement("p");
+    text.setAttribute("id", errortext_id);
     text.classList.add("err_txt");
     text.appendChild(document.createTextNode("キーワードを入力してください"));
-    search_form_element.appendChild(text);
+    document.getElementById("searchform").appendChild(text);
 }
