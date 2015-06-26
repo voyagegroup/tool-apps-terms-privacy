@@ -10,7 +10,7 @@ function set_placeholeder_if_needed() {
     }
 }
 
-function exists_serach_keyword() {
+function exists_search_keyword() {
     if (document.getElementById("keywords").value == "") {
         show_required_comment();
         return false;
