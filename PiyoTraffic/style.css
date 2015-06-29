@@ -36,9 +36,9 @@ h2{
 	margin:134px auto -16px; 
 }
 article{
-	display: block;
-	width:100%;
-	padding:18px;
+    display: block;
+    width: 302px;
+    margin: 18px 0 0 18px;
 }
 
 section{
