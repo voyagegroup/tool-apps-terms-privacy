@@ -66,12 +66,13 @@ span.text_yellow{
 	color:#ffff00;
 }
 #search_form_box{
-	width:640px;
+	width:308px;
 	height:50px;
-	margin:24px 0 0 12px;
+	padding:24px 0 0 12px;
 }
 #searchform{  
     position: relative;  
+    width: 308px;
 }  
 #keywords{  
     width: 260px;  
