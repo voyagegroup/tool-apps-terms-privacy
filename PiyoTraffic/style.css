@@ -2,76 +2,77 @@
 /* CSS Document */
 
 body {
-	background-color: #3ac535;
-	font-size: 14px;
-	font-weight:800;
-	line-height:1.4em;
-	color: #fff;
-	background-image : url("./images/bg_howto_320x340.png");
-	background-repeat:no-repeat;
-	background-position:0 -52px;
-	background-size: 320px 340px;
+    background-color: #3ac535;
+    font-size: 14px;
+    font-weight:800;
+    line-height:1.4em;
+    color: #fff;
+    background-image : url("./images/bg_howto_320x340.png");
+    background-repeat:no-repeat;
+    background-position:0 -52px;
+    background-size: 320px 340px;
 }
 h1{
-	text-indent:100%;
-	white-space:nowrap;
-	overflow:hidden;	
-	display:block;
-	width:128px;
-	height:29px;
-	background-image : url("./images/checker_howto_title_web_128x29.png");
-	background-repeat:no-repeat;
-	
-	margin:27px auto -16px; 
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    width:128px;
+    height:29px;
+    background-image : url("./images/checker_howto_title_web_128x29.png");
+    background-repeat:no-repeat;
+    
+    margin:27px auto -16px; 
 }
 h2{
-	text-indent:100%;
-	white-space:nowrap;
-	overflow:hidden;
-	display:block;
-	width:160px;
-	height:31px;
-	background-image : url("./images/title_howto_160x31.png");
-	background-repeat:no-repeat;
-	margin:134px auto -16px; 
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    width:160px;
+    height:31px;
+    background-image : url("./images/title_howto_160x31.png");
+    background-repeat:no-repeat;
+    margin:134px auto -16px; 
 }
 article{
-	display: block;
-	width:100%;
-	padding:18px;
+    display: block;
+    width: 302px;
+    margin: 18px 0 0 18px;
 }
 
 section{
-	display: inline-block;
-	width:132px;
-	vertical-align:top;
-	padding:113px 14px 8px 0;
-	background-repeat:no-repeat;
+    display: inline-block;
+    width:132px;
+    vertical-align:top;
+    padding:113px 14px 8px 0;
+    background-repeat:no-repeat;
 }
 
 section.step_1{
-	background-image : url("./images/howto_step1_132x106.png");
+    background-image : url("./images/howto_step1_132x106.png");
 }
 section.step_2{
-	background-image : url("./images/howto_step2_132x106.png");
+    background-image : url("./images/howto_step2_132x106.png");
 }
 section.step_3{
-	background-image : url("./images/howto_step1_132x106.png");
+    background-image : url("./images/howto_step1_132x106.png");
 }
 section.step_4{
-	background-image : url("./images/howto_step2_132x106.png");
+    background-image : url("./images/howto_step2_132x106.png");
 }
 
 span.text_yellow{
-	color:#ffff00;
+    color:#ffff00;
 }
 #search_form_box{
-	width:640px;
-	height:50px;
-	margin:24px 0 0 12px;
+    width:308px;
+    height:50px;
+    padding:24px 0 0 12px;
 }
 #searchform{  
     position: relative;  
+    width: 308px;
 }  
 #keywords{  
     width: 260px;  
@@ -96,7 +97,7 @@ span.text_yellow{
     border: none;
 } 
 .err_txt{
-	color:#ff0000;
+    color:#ff0000;
 } 
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
