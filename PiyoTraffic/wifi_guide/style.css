@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #3ec13a;
+	font-size: 12px;
+	font-weight:100;
+	line-height:1.4em;
+	color: #fff;
+}
+h1{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-image : url("./images/bg_wifi_guide_320x157.png");
+    background-repeat:no-repeat;
+    background-position:0 0px;
+    width:320px;
+    height:157px;
+}
+h2.title_wifi_guide_merit{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-image : url("./images/title_wifi_guide_merit_320x36.png");
+    background-repeat:no-repeat;
+    background-size: 320px 36px;
+    width:320px;
+    height:36px;
+}
+section.text_wifi_guide_merit{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_merit_320x115.png");
+    background-size: 320px 115px;
+    width:320px;
+    height:115px;
+    margin-bottom: 20px;
+}
+h2.title_wifi_guide_howto{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-image : url("./images/title_wifi_guide_howto_320x24.png");
+    background-repeat:no-repeat;
+    background-size: 320px 24px;
+    width:320px;
+    height:24px;
+}
+div.bubble_wifi_guide_howto{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/bubble_wifi_guide_howto_320x47.png");
+    background-size: 320px 47px;
+    width:320px;
+    height:47px;
+}
+h3.title_wifi_guide_howto_01{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/title_wifi_guide_howto_01_320x46.png");
+    background-size: 320px 46px;
+    width:320px;
+    height:46px;
+}
+div.text_wifi_guide_howto_01_01{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_01_01_320x203.png");
+    background-size: 320px 203px;
+    width:320px;
+    height:203px;
+}
+div.text_wifi_guide_howto_01_02{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_01_02_320x200.png");
+    background-size: 320px 200px;
+    width:320px;
+    height:200px;
+}
+div.text_wifi_guide_howto_01_03{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_01_03_320x192.png");
+    background-size: 320px 192px;
+    width:320px;
+    height:192px;
+}
+h3.title_wifi_guide_howto_02{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/title_wifi_guide_howto_02_320x72.png");
+    background-size: 320px 72px;
+    width:320px;
+    height:72px;
+}
+div.text_wifi_guide_howto_02_01{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_02_01_320x89.png");
+    background-size: 320px 89px;
+    width:320px;
+    height:89px;
+}
+div.text_wifi_guide_howto_02_02{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_02_02_320x110.png");
+    background-size: 320px 110px;
+    width:320px;
+    height:110px;
+}
+div.text_wifi_guide_howto_02_03{
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+    background-repeat:no-repeat;
+    background-image : url("./images/text_wifi_guide_howto_02_03_320x117.png");
+    background-size: 320px 117px;
+    width:320px;
+    height:117px;
+}
+p.alert_text{
+    margin:10px;
+    width:300px;
+}
+footer{
+    background-repeat:no-repeat;
+    background-image : url("./images/bg_wifi_guide_howto_footer_320x53.png");
+    background-size: 320px 53px;
+    width:320px;
+    height:53px;       
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    h1{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-image : url("./images/bg_wifi_guide_320x157@2x.png");
+        background-repeat:no-repeat;
+        background-position:0 0px;
+        background-size: 320px 157px;
+        width:320px;
+        height:157px;
+    }
+    h2.title_wifi_guide_merit{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-image : url("./images/title_wifi_guide_merit_320x36@2x.png");
+        background-repeat:no-repeat;
+        background-size: 320px 36px;
+        width:320px;
+        height:36px;
+    }
+    section.text_wifi_guide_merit{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_merit_320x115@2x.png");
+        background-size: 320px 115px;
+        width:320px;
+        height:115px;
+        margin-bottom: 20px;
+    }
+    h2.title_wifi_guide_howto{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-image : url("./images/title_wifi_guide_howto_320x24@2x.png");
+        background-repeat:no-repeat;
+        background-size: 320px 24px;
+        width:320px;
+        height:24px;
+    }
+    div.bubble_wifi_guide_howto{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/bubble_wifi_guide_howto_320x47@2x.png");
+        background-size: 320px 47px;
+        width:320px;
+        height:47px;
+    }
+    h3.title_wifi_guide_howto_01{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/title_wifi_guide_howto_01_320x46@2x.png");
+        background-size: 320px 46px;
+        width:320px;
+        height:46px;
+    }
+    div.text_wifi_guide_howto_01_01{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_01_01_320x203@2x.png");
+        background-size: 320px 203px;
+        width:320px;
+        height:203px;
+    }
+    div.text_wifi_guide_howto_01_02{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_01_02_320x200@2x.png");
+        background-size: 320px 200px;
+        width:320px;
+        height:200px;
+    }
+    div.text_wifi_guide_howto_01_03{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_01_03_320x192@2x.png");
+        background-size: 320px 192px;
+        width:320px;
+        height:192px;
+    }
+    h3.title_wifi_guide_howto_02{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/title_wifi_guide_howto_02_320x72@2x.png");
+        background-size: 320px 72px;
+        width:320px;
+        height:72px;
+    }
+    div.text_wifi_guide_howto_02_01{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_02_01_320x89@2x.png");
+        background-size: 320px 89px;
+        width:320px;
+        height:89px;
+    }
+    div.text_wifi_guide_howto_02_02{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_02_02_320x110@2x.png");
+        background-size: 320px 110px;
+        width:320px;
+        height:110px;
+    }
+    div.text_wifi_guide_howto_02_03{
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+        display:block;
+        background-repeat:no-repeat;
+        background-image : url("./images/text_wifi_guide_howto_02_03_320x117@2x.png");
+        background-size: 320px 117px;
+        width:320px;
+        height:117px;
+    }
+    p.alert_text{
+        margin:10px
+    }
+    footer{
+        background-repeat:no-repeat;
+        background-image : url("./images/bg_wifi_guide_howto_footer_320x53@2x.png");
+        background-size: 320px 53px;
+        width:320px;
+        height:53px;       
+    }
+}
+
+
+
+
