@@ -7,7 +7,7 @@
 <title>WEB検索</title>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
-<script defer type="text/javascript" src="./guide.js">
+<script type="text/javascript" src="./guide.js">
 </script>
 </head>
 <body>
@@ -15,10 +15,9 @@
   <h1>WEB検索</h1>
 </header>
 <div id="search_form_box">
-    <form action="./log.html" id="searchform" onSubmit="return exists_serach_keyword()">
-        <input type="text" name="query" id="keywords" placeholder="映画やドラマ、音楽などを検索" class="empty_keywords">
+    <form action="./log.html" id="searchform" onSubmit="return exists_search_keyword()">
+        <input type="text" name="query" id="keywords" placeholder="Yahoo！検索">
         <input type="image" src="./images/search_btn_46x42@2x.png" alt="検索" id="search_btn">
-        <p class="err_txt">キーワードを入力してください。</p>
     </form>
 </div>
   <h2>使い方ガイド</h2>
