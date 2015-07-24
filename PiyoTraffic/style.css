@@ -17,12 +17,12 @@ h1{
     white-space:nowrap;
     overflow:hidden;
     display:block;
-    width:128px;
-    height:29px;
-    background-image : url("./images/checker_howto_title_web_128x29.png");
+    width:160px;
+    height:22px;
+    background-image : url("./images/checker_howto_title_web_160x22.png");
     background-repeat:no-repeat;
     
-    margin:27px auto -16px; 
+    margin:32px auto -21px; 
 }
 h2{
     text-indent:100%;
@@ -106,8 +106,8 @@ span.text_yellow{
         background-size:320px 340px;
     }
     h1{
-        background-image : url("./images/checker_howto_title_web_128x29@2x.png");
-        background-size:128px 29px;
+        background-image : url("./images/checker_howto_title_web_160x22@2x.png");
+        background-size:160px 22px;
     }
     section.step_1{
         background-image : url("./images/howto_step1_132x106@2x.png");
