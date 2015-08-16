@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #3ac535;
+	font-size: 12px;
+	font-weight:500;
+	line-height:1.4em;
+	color: #fff;
+	margin:0;
+	padding:0;
+}
+.clearfix.clearfix:before,
+.clearfix:after {
+    content:" ";
+    display:table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+h2{
+	margin:0;
+	padding:0;
+}
+article{
+	text-align:center;
+	margin:0;
+	padding:0em;
+}
+article p{
+	font-size:14px;
+	color:#fff;
+	text-align:left;
+	padding:0.5em 1em;
+	margin:0;
+}
+article div.banner_l{
+	padding:0 1em;
+	margin-bottom:1em;
+}
+article div.banner{
+	padding:0 1em;
+	margin-bottom:1em;
+}
+article p span{
+	color:#fff;
+	background-color:#f00;
+	padding:2px;
+}
+.ranking{
+	float:left;
+	margin-right:14px;
+	width:30px;
+	margin-top:4px
+}
+.banner_img{
+	float:left;
+	width:200px;
+}
+
+
