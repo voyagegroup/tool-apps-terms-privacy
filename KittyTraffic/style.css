@@ -2,72 +2,51 @@
 /* CSS Document */
 
 body {
-	background-color: #a6d87a;
-	font-size: 12px;
-	font-weight:800;
-	line-height:1.4em;
-	color: #fff;
-	
-	background-image : url("./images/bg_howto_320x222.png");
-	background-repeat:no-repeat;
-	background-position:0 -32px;
-
+	background-color:#a6d87a;
+	padding:0;
+	margin:0;
 }
-
-article{
-	display: block;
+.header img{
 	width:100%;
-	padding:84px 18px 18px 18px;
 }
-
-section{
-	display: inline-block;
-	width:132px;
-	vertical-align:top;
-	padding:120px 14px 18px 0;
-	background-repeat:no-repeat;
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
 }
-
-section.step_1{
-	background-image : url("./images/howto_step1_132x121.png");
+.clearfix:after {
+    clear: both;
 }
-section.step_2{
-	background-image : url("./images/howto_step2_132x121.png");
+.clearfix {
+    *zoom: 1;
 }
-section.step_3{
-	background-image : url("./images/howto_step3_132x121.png");
+.step_01{
+	width:50%;
+	float:left;
 }
-section.step_4{
-	background-image : url("./images/howto_step4_132x121.png");
+.step_01 img{
+	width:100%;
 }
-
-span.text_yellow{
-	color:#ea608b;
+.step_02{
+	width:50%;
+	float:left;
 }
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-body {
-	background-image : url("./images/bg_howto_320x222@2x.png");
-	background-size:320px 222px;
+.step_02 img{
+	width:100%;
 }
-
-section.step_1{
-	background-image : url("./images/howto_step1_132x121@2x.png");
-	background-size:132px 121px;
+.step_03{
+	width:50%;
+	float:left;
 }
-section.step_2{
-	background-image : url("./images/howto_step2_132x121@2x.png");
-	background-size:132px 121px;
+.step_03 img{
+	width:100%;
 }
-section.step_3{
-	background-image : url("./images/howto_step3_132x121@2x.png");
-	background-size:132px 121px;
+.step_04{
+	width:50%;
+	float:left;
 }
-section.step_4{
-	background-image : url("./images/howto_step4_132x121@2x.png");
-	background-size:132px 121px;
-}
+.step_04 img{
+	width:100%;
 }
 
 
