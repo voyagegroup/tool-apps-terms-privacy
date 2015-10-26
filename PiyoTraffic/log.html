@@ -4,16 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <title>検索実行</title>
+<script src="js/get_query_parameter.js" type="text/javascript" charset="UTF-8"></script>
 <script type="text/javascript">
     var query = getParameterByName("query");
     setTimeout(function(){location.href="http://search.yahoo.co.jp/search?p="+query+"&ei=UTF-8&fr=valibo"}, 0);
-
-    function getParameterByName(name) {
-        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-            results = regex.exec(location.search);
-        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
 </script>
 <link rel="stylesheet" href="reset.css">
 </head>
