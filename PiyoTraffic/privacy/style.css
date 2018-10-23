@@ -10,7 +10,7 @@ body {
 	background-image : url("./images/bg_howto_320x222.png");
 	background-repeat:no-repeat;
 	background-position:0 -32px;
-
+    background-size: 100% auto;
 }
 
 h1{
@@ -40,7 +40,6 @@ a, a.active{
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 body {
 	background-image : url("./images/bg_howto_320x222@2x.png");
-	background-size:320px 222px;
 }
 }
 
