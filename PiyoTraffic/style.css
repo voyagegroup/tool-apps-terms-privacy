@@ -9,8 +9,12 @@ body {
     color: #fff;
     background-image : url("./images/bg_howto_320x340.png");
     background-repeat:no-repeat;
-    background-position:0 -52px;
-    background-size: 320px 340px;
+    background-position: center -52px;
+    background-size: 100% auto;
+}
+body div {
+    width: 320px;
+    margin: 0 auto;
 }
 h1{
     text-indent:100%;
@@ -21,8 +25,7 @@ h1{
     height:22px;
     background-image : url("./images/checker_howto_title_web_160x22.png");
     background-repeat:no-repeat;
-    
-    margin:32px auto -21px; 
+    margin:32px auto -21px;
 }
 h2{
     text-indent:100%;
@@ -38,7 +41,7 @@ h2{
 article{
     display: block;
     width: 302px;
-    margin: 18px 0 0 18px;
+    margin: 18px auto;
 }
 
 section{
@@ -103,7 +106,6 @@ span.text_yellow{
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-image : url("./images/bg_howto_320x340@2x.png");
-        background-size:320px 340px;
     }
     h1{
         background-image : url("./images/checker_howto_title_web_160x22@2x.png");

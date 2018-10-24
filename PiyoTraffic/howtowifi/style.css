@@ -8,6 +8,10 @@ body {
 	line-height:1.4em;
 	color: #fff;
 }
+body div {
+    width: 320px;
+    margin: 0 auto;
+}
 h1{
     text-indent:100%;
     white-space:nowrap;
